@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+}
+form{
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 1px solid #d5d2d2;
+    border-radius: 10px;
+    width: 750px;
+    padding: 25px;
+}
+.line_1{
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+.phone-number{
+    margin-top: 5px;
+}
+input, select{
+    border: 1px solid #d5d2d2;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+}
+input:focus{
+    border: 1.5px solid #1f52f9;
+}
+input:focus ~ label{
+    top: -19px;
+    left: -310px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+.phone-number{
+    margin-top: 10px;
+}
+label{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color:#555;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+.phone-lbl{
+    left: -310px;
+    top: -19px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+.phone{
+    width: 300px;
+}
+a{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    font-size: small;
+}
+.line1{
+    margin-left: 5px;
+}
+.recovery_email{
+    margin-top: 15px;
+}
+.recovery_email input{
+    width: 345px;
+}
+.email-R{
+    left: -350px;
+    top: -19px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+.date-birth{
+    margin-top: 20px;
+}
+.month-lbl{
+    top: -19px;
+    left: -110px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+#month{
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+#date{
+    width: 50px;
+    margin: -20px;
+}
+.day-lbl{
+    left: -50px;
+    top: -19px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+.year-lbl{
+    top: -19px;
+    left: -120px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+#year{
+    width: 100px;
+}
+.gender{
+    margin-top: 15px;
+}
+#gender-info{
+    width: 350px;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+.gender-lbl{
+    top: -19px;
+    left: -340px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f42f9;
+}
+.line2{
+    font-size: 13px;
+    margin: 20px 8px;
+    color: #4971f6;
+    font-family: Arial rounded mt;
+}
+.buttons{
+    display: inline-block;
+}
+.submit_btn{
+    position: relative;
+    border: 1.5px solid #1f52f9;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    background: #4971f6;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 15px;
+    margin-left: 250px;
+    top: -42px;
+}
+.image2{
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 650px;
+}
+.image2 img{
+    width: 260px;
+    display: block; 
+}
